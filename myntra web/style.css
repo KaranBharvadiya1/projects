@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+header{
+    min-width: 100%;
+    display: flex;
+    height: 80px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 4px solid #efeff1;
+    position: fixed;
+}
+.myntra_logo{
+    height: 42px;
+    width: 59px;
+}
+.logo_container{
+    margin-left: 4%;
+}
+.desk_bar{
+    margin-right: 4%;
+}
+.nav_bar {
+    margin: 0 0 0 .5%;
+    display: flex;
+    width: 500px;
+    min-width: 515px;
+    justify-content: space-evenly;
+
+}
+.nav_bar a{
+    padding:30px 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13.5px;
+    font-weight: 650;
+    color: #282c3f;
+    letter-spacing: .3px;
+    border-bottom: 3px solid white;
+}
+.nav_bar a:hover{
+    border-bottom: 3px solid rgb(228, 62, 62);
+}
+.search_bar{
+    min-width: 32%;
+    height: 39.6px;
+    display: flex;
+    align-items: center;
+}
+.search_bar span{
+    padding: 8px 18px 8px 8px;
+    color: #282c3f;
+    background-color: #f5f5f6;
+    border-radius: 4px 0 0 4px;
+}
+.search_bar input{
+    color: #282c3f;
+    background-color: #f5f5f6;
+    width: 475px;
+    min-width: 30%;
+    height: 39.6px;
+    border-radius: 0 4px 4px 0;
+    border: 0;
+}
+.desk_bar{
+    width: 194px;
+    min-width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.desk_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.desk_icon{
+  margin: 10px 0 0;
+}
+.desk_name{
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.offer_banner{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.special_offer_banner{
+    display: flex;
+    width: 100%;
+}
+
+.men_banner,.women_banner{
+    width: 100%;
+}
+
+.category_heading{
+    margin: 30px;
+}
+.category_image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* footer */
+
+.footer_container{
+    display: flex;
+    max-width: 1080px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.shopLink{
+    display: flex;
+    flex-direction: column;
+}
+.shopLink h3{
+    font-weight: 700;
+    font-size: 12px;
+    margin: 20px 0px;
+}
+.shopLink a{
+    text-decoration: none;
+    color: #696b79;
+}
+.app_experience h3{
+    font-weight: 700;
+    font-size: 12px;
+    margin: 20px 0px;
+}
+.app_experience a img{
+    height: 42px;
+    width: 140px;
+}
+.keep_in_touch h3{
+    margin: 20px 0px;
+}
+.keep_in_touch a img{
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
