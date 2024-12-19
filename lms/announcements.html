@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Announcements</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f4f4f4;
+    }
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+    .announcement {
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .announcement:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+    .announcement h2 {
+        color: #333;
+        margin-top: 0;
+    }
+    .announcement p {
+        color: #666;
+        margin-bottom: 0;
+    }
+    .announcement p:last-child {
+        margin-bottom: 20px;
+    }
+    .announcement .date {
+        color: #999;
+        font-size: 14px;
+    }
+
+    .back-btn{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 10px;
+      left: 40px;
+      height: 30px;
+      width: 90px;
+      font-weight: 800;
+      background: #000;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .back-btn:hover{
+      background-color: lightblue;
+      color: #000;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Announcements</h1>
+
+    <div class="announcement">
+        <h2>Library Closure</h2>
+        <p>The library will be closed on April 25th, 2024, for maintenance work. We apologize for any inconvenience caused.</p>
+        <p class="date">Posted on April 20th, 2024</p>
+    </div>
+
+    <div class="announcement">
+        <h2>New Arrivals</h2>
+        <p>Exciting news! Our library has received a shipment of new books by various authors. Come and explore our latest collection!</p>
+        <p class="date">Posted on April 15th, 2024</p>
+    </div>
+
+    <div class="announcement">
+        <h2>Extended Opening Hours</h2>
+        <p>Starting next month, we will be extending our library's opening hours to better serve our patrons. Stay tuned for the updated schedule!</p>
+        <p class="date">Posted on April 10th, 2024</p>
+    </div>
+
+    
+</div>
+
+<a href="index.php" class="back-btn">←</a>
+
+</body>
+</html>
